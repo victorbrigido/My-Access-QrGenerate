@@ -1,19 +1,19 @@
 //
-//  InviteButton.swift
+//  QRCodeButton.swift
 //  MyAcess
 //
-//  Created by Victor Brigido on 12/03/24.
+//  Created by Victor Brigido on 15/03/24.
 //
 
 import SwiftUI
 
-struct InviteButton: View {
+struct QRCodeButton: View {
     var body: some View {
         HStack {
             Button{
                 print("invite button tapped!")
             } label: {
-                Text("Convidar")
+                Text("Ler QrCode")
                     .bold()
                     .foregroundColor(.white)
             }
@@ -25,5 +25,5 @@ struct InviteButton: View {
 }
 
 #Preview {
-    InviteButton()
+    QRCodeButton()
 }

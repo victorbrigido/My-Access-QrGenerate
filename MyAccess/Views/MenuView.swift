@@ -105,7 +105,7 @@ struct MenuView: View {
                 
                 Spacer()
                 
-                Button(action: onLogoutTap) {
+                Button(action: onLogoutTap) { 
                     HStack {
                         Image(systemName: "power")
                             .foregroundColor(.white)
