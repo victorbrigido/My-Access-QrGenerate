@@ -14,7 +14,7 @@ struct AccountView: View {
     
     @Environment(\.presentationMode) var presentationMode
     @ObservedObject var sessionManager = SessionManager.shared
-    
+        
     var body: some View {
         
         HStack() {

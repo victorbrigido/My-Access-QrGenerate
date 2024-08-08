@@ -7,49 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		162E7F5A2C650F0800140F23 /* Chronometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E7F4B2C650F0800140F23 /* Chronometer.swift */; };
-		162E7F5B2C650F0800140F23 /* InviteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E7F4C2C650F0800140F23 /* InviteButton.swift */; };
-		162E7F5E2C650F0800140F23 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E7F522C650F0800140F23 /* HomeView.swift */; };
-		162E7F5F2C650F0800140F23 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E7F532C650F0800140F23 /* LoginView.swift */; };
-		162E7F602C650F0800140F23 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E7F542C650F0800140F23 /* MenuView.swift */; };
+		16270C122C6530310073D7AC /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16270C102C6530310073D7AC /* UserManager.swift */; };
+		16270C162C65303F0073D7AC /* FirebaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16270C132C65303F0073D7AC /* FirebaseServices.swift */; };
+		16270C172C65303F0073D7AC /* QrProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16270C142C65303F0073D7AC /* QrProfileView.swift */; };
+		16270C1F2C6530570073D7AC /* CardUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16270C182C6530570073D7AC /* CardUser.swift */; };
+		16270C212C6530570073D7AC /* Chronometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16270C1A2C6530570073D7AC /* Chronometer.swift */; };
+		16270C222C6530570073D7AC /* InviteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16270C1B2C6530570073D7AC /* InviteButton.swift */; };
+		16270C232C6530570073D7AC /* QRCodeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16270C1C2C6530570073D7AC /* QRCodeButton.swift */; };
+		16270C242C6530570073D7AC /* ScanQRButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16270C1D2C6530570073D7AC /* ScanQRButton.swift */; };
+		16270C2E2C6530660073D7AC /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16270C252C6530650073D7AC /* AccountView.swift */; };
+		16270C302C6530660073D7AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16270C272C6530650073D7AC /* HomeView.swift */; };
+		16270C312C6530660073D7AC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16270C282C6530650073D7AC /* LoginView.swift */; };
+		16270C322C6530660073D7AC /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16270C292C6530650073D7AC /* MenuView.swift */; };
+		16270C332C6530660073D7AC /* QRCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16270C2A2C6530650073D7AC /* QRCodeScannerView.swift */; };
+		16270C342C6530660073D7AC /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16270C2B2C6530650073D7AC /* RegisterView.swift */; };
+		16270C352C6530660073D7AC /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16270C2C2C6530650073D7AC /* TestView.swift */; };
+		16270C392C6530FE0073D7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16270C382C6530FE0073D7AC /* Assets.xcassets */; };
+		16270C3B2C65316C0073D7AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16270C3A2C65316C0073D7AC /* GoogleService-Info.plist */; };
 		162E7F612C650F0800140F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E7F562C650F0800140F23 /* AppDelegate.swift */; };
 		162E7F632C650F0800140F23 /* MyAccessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E7F582C650F0800140F23 /* MyAccessApp.swift */; };
-		162E7F6A2C650FCE00140F23 /* FirebaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E7F652C650FCE00140F23 /* FirebaseServices.swift */; };
-		162E7F6B2C650FCE00140F23 /* QrProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E7F662C650FCE00140F23 /* QrProfileView.swift */; };
-		162E7F6F2C650FE700140F23 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E7F6D2C650FE700140F23 /* UserManager.swift */; };
-		162E7F712C650FF600140F23 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 162E7F702C650FF600140F23 /* GoogleService-Info.plist */; };
-		162E7F732C65100700140F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162E7F722C65100700140F23 /* Assets.xcassets */; };
 		162E7F762C6510D500140F23 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 162E7F752C6510D500140F23 /* FirebaseAuth */; };
 		162E7F782C6510D500140F23 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 162E7F772C6510D500140F23 /* FirebaseDatabase */; };
 		162E7F7A2C6510D500140F23 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 162E7F792C6510D500140F23 /* FirebaseFirestore */; };
 		162E7F7D2C6510F900140F23 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 162E7F7C2C6510F900140F23 /* CodeScanner */; };
-		166115762C6517A6004291DD /* QRCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166115752C6517A6004291DD /* QRCodeScannerView.swift */; };
-		166115782C6517B1004291DD /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166115772C6517B1004291DD /* RegisterView.swift */; };
-		1661157A2C6517BE004291DD /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166115792C6517BE004291DD /* AccountView.swift */; };
-		1661157C2C6517CB004291DD /* ScanQRButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1661157B2C6517CB004291DD /* ScanQRButton.swift */; };
-		1661157E2C6517D2004291DD /* CardUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1661157D2C6517D2004291DD /* CardUser.swift */; };
-		166115812C6519CC004291DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1661157F2C6519CC004291DD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		162E7F4B2C650F0800140F23 /* Chronometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chronometer.swift; sourceTree = "<group>"; };
-		162E7F4C2C650F0800140F23 /* InviteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteButton.swift; sourceTree = "<group>"; };
-		162E7F522C650F0800140F23 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		162E7F532C650F0800140F23 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		162E7F542C650F0800140F23 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		16270C102C6530310073D7AC /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		16270C132C65303F0073D7AC /* FirebaseServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseServices.swift; sourceTree = "<group>"; };
+		16270C142C65303F0073D7AC /* QrProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrProfileView.swift; sourceTree = "<group>"; };
+		16270C182C6530570073D7AC /* CardUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardUser.swift; sourceTree = "<group>"; };
+		16270C1A2C6530570073D7AC /* Chronometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chronometer.swift; sourceTree = "<group>"; };
+		16270C1B2C6530570073D7AC /* InviteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteButton.swift; sourceTree = "<group>"; };
+		16270C1C2C6530570073D7AC /* QRCodeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeButton.swift; sourceTree = "<group>"; };
+		16270C1D2C6530570073D7AC /* ScanQRButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanQRButton.swift; sourceTree = "<group>"; };
+		16270C252C6530650073D7AC /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		16270C272C6530650073D7AC /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		16270C282C6530650073D7AC /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		16270C292C6530650073D7AC /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		16270C2A2C6530650073D7AC /* QRCodeScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeScannerView.swift; sourceTree = "<group>"; };
+		16270C2B2C6530650073D7AC /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		16270C2C2C6530650073D7AC /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		16270C382C6530FE0073D7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16270C3A2C65316C0073D7AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		162E7F562C650F0800140F23 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		162E7F582C650F0800140F23 /* MyAccessApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccessApp.swift; sourceTree = "<group>"; };
-		162E7F652C650FCE00140F23 /* FirebaseServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseServices.swift; sourceTree = "<group>"; };
-		162E7F662C650FCE00140F23 /* QrProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrProfileView.swift; sourceTree = "<group>"; };
-		162E7F6D2C650FE700140F23 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
-		162E7F702C650FF600140F23 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
-		162E7F722C65100700140F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Documents/Xcode/Projects/MyAccess/MyAcess/Assets.xcassets; sourceTree = "<group>"; };
-		166115752C6517A6004291DD /* QRCodeScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeScannerView.swift; path = ../../../../Documents/Xcode/Projects/MyAccess/MyAcess/Views/QRCodeScannerView.swift; sourceTree = "<group>"; };
-		166115772C6517B1004291DD /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterView.swift; path = ../../../../Documents/Xcode/Projects/MyAccess/MyAcess/Views/RegisterView.swift; sourceTree = "<group>"; };
-		166115792C6517BE004291DD /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountView.swift; path = ../../../../Documents/Xcode/Projects/MyAccess/MyAcess/Views/AccountView.swift; sourceTree = "<group>"; };
-		1661157B2C6517CB004291DD /* ScanQRButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScanQRButton.swift; path = ../../../../Documents/Xcode/Projects/MyAccess/MyAcess/Components/ScanQRButton.swift; sourceTree = "<group>"; };
-		1661157D2C6517D2004291DD /* CardUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardUser.swift; path = ../../../../Documents/Xcode/Projects/MyAccess/MyAcess/Components/CardUser.swift; sourceTree = "<group>"; };
-		1661157F2C6519CC004291DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1676BF722B9F4DDD00C347B9 /* MyAcess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAcess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -68,26 +70,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		162E7F4D2C650F0800140F23 /* Components */ = {
+		16270C112C6530310073D7AC /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				162E7F4B2C650F0800140F23 /* Chronometer.swift */,
-				162E7F4C2C650F0800140F23 /* InviteButton.swift */,
-				1661157B2C6517CB004291DD /* ScanQRButton.swift */,
-				1661157D2C6517D2004291DD /* CardUser.swift */,
+				16270C102C6530310073D7AC /* UserManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		16270C152C65303F0073D7AC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				16270C132C65303F0073D7AC /* FirebaseServices.swift */,
+				16270C142C65303F0073D7AC /* QrProfileView.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		16270C1E2C6530570073D7AC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				16270C182C6530570073D7AC /* CardUser.swift */,
+				16270C1A2C6530570073D7AC /* Chronometer.swift */,
+				16270C1B2C6530570073D7AC /* InviteButton.swift */,
+				16270C1C2C6530570073D7AC /* QRCodeButton.swift */,
+				16270C1D2C6530570073D7AC /* ScanQRButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		162E7F552C650F0800140F23 /* Views */ = {
+		16270C2D2C6530650073D7AC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				162E7F522C650F0800140F23 /* HomeView.swift */,
-				162E7F532C650F0800140F23 /* LoginView.swift */,
-				162E7F542C650F0800140F23 /* MenuView.swift */,
-				166115772C6517B1004291DD /* RegisterView.swift */,
-				166115752C6517A6004291DD /* QRCodeScannerView.swift */,
-				166115792C6517BE004291DD /* AccountView.swift */,
+				16270C252C6530650073D7AC /* AccountView.swift */,
+				16270C272C6530650073D7AC /* HomeView.swift */,
+				16270C282C6530650073D7AC /* LoginView.swift */,
+				16270C292C6530650073D7AC /* MenuView.swift */,
+				16270C2A2C6530650073D7AC /* QRCodeScannerView.swift */,
+				16270C2B2C6530650073D7AC /* RegisterView.swift */,
+				16270C2C2C6530650073D7AC /* TestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -95,45 +116,16 @@
 		162E7F592C650F0800140F23 /* MyAccess */ = {
 			isa = PBXGroup;
 			children = (
-				162E7F6E2C650FE700140F23 /* Manager */,
-				162E7F682C650FCE00140F23 /* Services */,
-				162E7F4D2C650F0800140F23 /* Components */,
-				162E7F552C650F0800140F23 /* Views */,
+				16270C2D2C6530650073D7AC /* Views */,
+				16270C1E2C6530570073D7AC /* Components */,
+				16270C152C65303F0073D7AC /* Services */,
+				16270C112C6530310073D7AC /* Manager */,
 				162E7F562C650F0800140F23 /* AppDelegate.swift */,
-				162E7F722C65100700140F23 /* Assets.xcassets */,
+				16270C382C6530FE0073D7AC /* Assets.xcassets */,
 				162E7F582C650F0800140F23 /* MyAccessApp.swift */,
-				162E7F702C650FF600140F23 /* GoogleService-Info.plist */,
-				166115802C6519CC004291DD /* Preview Content */,
+				16270C3A2C65316C0073D7AC /* GoogleService-Info.plist */,
 			);
 			path = MyAccess;
-			sourceTree = "<group>";
-		};
-		162E7F682C650FCE00140F23 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				162E7F652C650FCE00140F23 /* FirebaseServices.swift */,
-				162E7F662C650FCE00140F23 /* QrProfileView.swift */,
-			);
-			name = Services;
-			path = ../../../Documents/Xcode/Projects/MyAccess/MyAcess/Services;
-			sourceTree = "<group>";
-		};
-		162E7F6E2C650FE700140F23 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				162E7F6D2C650FE700140F23 /* UserManager.swift */,
-			);
-			name = Manager;
-			path = ../../../Documents/Xcode/Projects/MyAccess/MyAcess/Manager;
-			sourceTree = "<group>";
-		};
-		166115802C6519CC004291DD /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				1661157F2C6519CC004291DD /* Preview Assets.xcassets */,
-			);
-			name = "Preview Content";
-			path = "../../../Documents/Xcode/Projects/MyAccess/MyAcess/Preview Content";
 			sourceTree = "<group>";
 		};
 		1676BF692B9F4DDD00C347B9 = {
@@ -220,9 +212,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				162E7F732C65100700140F23 /* Assets.xcassets in Resources */,
-				166115812C6519CC004291DD /* Preview Assets.xcassets in Resources */,
-				162E7F712C650FF600140F23 /* GoogleService-Info.plist in Resources */,
+				16270C392C6530FE0073D7AC /* Assets.xcassets in Resources */,
+				16270C3B2C65316C0073D7AC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,21 +224,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				162E7F6A2C650FCE00140F23 /* FirebaseServices.swift in Sources */,
-				1661157C2C6517CB004291DD /* ScanQRButton.swift in Sources */,
-				162E7F5B2C650F0800140F23 /* InviteButton.swift in Sources */,
-				162E7F602C650F0800140F23 /* MenuView.swift in Sources */,
-				166115782C6517B1004291DD /* RegisterView.swift in Sources */,
-				162E7F6F2C650FE700140F23 /* UserManager.swift in Sources */,
-				166115762C6517A6004291DD /* QRCodeScannerView.swift in Sources */,
-				1661157E2C6517D2004291DD /* CardUser.swift in Sources */,
-				162E7F5E2C650F0800140F23 /* HomeView.swift in Sources */,
-				162E7F5A2C650F0800140F23 /* Chronometer.swift in Sources */,
+				16270C2E2C6530660073D7AC /* AccountView.swift in Sources */,
+				16270C302C6530660073D7AC /* HomeView.swift in Sources */,
+				16270C222C6530570073D7AC /* InviteButton.swift in Sources */,
+				16270C312C6530660073D7AC /* LoginView.swift in Sources */,
+				16270C122C6530310073D7AC /* UserManager.swift in Sources */,
+				16270C242C6530570073D7AC /* ScanQRButton.swift in Sources */,
 				162E7F612C650F0800140F23 /* AppDelegate.swift in Sources */,
-				1661157A2C6517BE004291DD /* AccountView.swift in Sources */,
+				16270C232C6530570073D7AC /* QRCodeButton.swift in Sources */,
+				16270C342C6530660073D7AC /* RegisterView.swift in Sources */,
+				16270C322C6530660073D7AC /* MenuView.swift in Sources */,
+				16270C1F2C6530570073D7AC /* CardUser.swift in Sources */,
+				16270C212C6530570073D7AC /* Chronometer.swift in Sources */,
+				16270C332C6530660073D7AC /* QRCodeScannerView.swift in Sources */,
+				16270C162C65303F0073D7AC /* FirebaseServices.swift in Sources */,
+				16270C352C6530660073D7AC /* TestView.swift in Sources */,
+				16270C172C65303F0073D7AC /* QrProfileView.swift in Sources */,
 				162E7F632C650F0800140F23 /* MyAccessApp.swift in Sources */,
-				162E7F5F2C650F0800140F23 /* LoginView.swift in Sources */,
-				162E7F6B2C650FCE00140F23 /* QrProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

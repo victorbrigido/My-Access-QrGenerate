@@ -16,7 +16,6 @@ struct LoginView: View {
     @State private var errorMessage = ""
     @State private var isLoggedIn = false
     @State private var isRegistering = false
-//    @State private var userLevel: String = ""
 
     var body: some View {
         VStack {
@@ -38,10 +37,6 @@ struct LoginView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding(.top, 4)
             }
-            
-//            Text("usuário ou dados inválidos, tente novamente...")
-//                .font(.callout)
-//                .foregroundColor(.red)
             
             if !errorMessage.isEmpty {
                 Text(errorMessage)
